@@ -1,0 +1,22 @@
+PROGRAMACION DE CLASES
+-------------------------------------------------
+Clase 1: 09.NOV.25: Practica 1
+Clase 2: 16.NOV.25: Practica 2
+Clase 3: 23.NOV.25: Practica 3
+Clase 4: 30.NOV.25: Practica 4 + Examen Final
+
+
+PRACTICAS CALIFICADAS (PC)
+-------------------------------------------------
+Las practicas se resuelven en forma grupal y se envian a egcc.uni@gmail.com.
+Solo un integrante del grupo envia la solución.
+
+
+SISTEMA DE CALIFICACIÓN
+-------------------------------------------------
+- 4 Practicas Calificadas
+- 1 Examen Final
+
+
+PP = ( PC1 + PC2 + PC3 + PC4 - MenorPC ) / 3
+PF = ( PP + EF ) / 2
