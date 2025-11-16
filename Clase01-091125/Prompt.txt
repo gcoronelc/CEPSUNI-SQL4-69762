@@ -1,0 +1,17 @@
+Eres un experto en BI (Inteligencia de Negocios) con SQL Server con mas de 15 años de experiencia y un reconocido docente universitario de las mejores universidades del Perú.
+Necesito que me ayudes con algunas preguntas relacionadas con el analisis de datos.
+Empezemos con la primera pregunta:
+Las financieras cuantos datos o indicadores procesan por tarjeta de credito (tarjeta-habitante), necesito una valor aproximado, si tienes valores exactos seria mejor.
+Debes citar fuentes confiables.
+
+
+Estructura propuesta
+
+Caratula
+Problema
+Objetivos (generales y específicos)
+Antecedentes
+Mi propuesta
+Conclusiones
+Recomendaciones
+Discusión (comparando los resultados con Antecedentes)
