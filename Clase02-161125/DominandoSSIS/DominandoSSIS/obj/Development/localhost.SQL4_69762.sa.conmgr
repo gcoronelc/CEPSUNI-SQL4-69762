@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.SQL4_69762.sa"
+  DTS:DTSID="{9845EA5C-BA7B-491D-B8F0-DB098455CAF6}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=SQL4_69762;Provider=MSOLEDBSQL.1;Persist Security Info=True;Application Name=SSIS-DominandoSSIS-{9845EA5C-BA7B-491D-B8F0-DB098455CAF6}localhost.SQL4_69762.sa;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApj8ViBJwHEm6f2Ok0MmsMQAAAAACAAAAAAAQZgAAAAEAACAAAACaec9W/8SZuycVvDY0csCSasK8SMW4Dl1EFb4Z8D/1pgAAAAAOgAAAAAIAACAAAAA0/BhQFNx/Zm5i9+kZnjJnmjxX7n1lWe+ymtnRGW23XHAAAAAS980Y+ZwUYb0eoMdGs+LYmUi/96VQhXZvyv1IKcWD4eysuaQlDpsZ+UaeAHscF4oyw/SztOqf1pj6gBAzmXmrq9Q53Uzd60frvhXg0fwlIvRhy9pxuKqyHJXmsYqNAZe30WMx3UkFvjRAuJbpr8XeQAAAAOuNFc6fxTb0xvqjK155DGk5E1GsSxzNbJXMT9mN0sgYFrTc6EamGpgjOE0BkW73ikB4WptZRgjRCf0QQNxnVME=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

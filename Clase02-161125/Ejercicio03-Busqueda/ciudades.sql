@@ -19,3 +19,11 @@ insert into ciudades(idciudad,descripcion)
 values('HU','HUANUCO')
 insert into ciudades(idciudad,descripcion)
 values('LI','LIMA')
+go
+
+
+select * from dbo.ciudades;
+go
+
+
+

@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>SQL4-57040 Northwind DM</Id>
+            <Name>SQL4-57040 Northwind DM</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAvJNu1hyoLEisgeKZOiLKdwAAAAAwAAAAUwBRAEwANAAtADUANwAwADQAMAAgAE4AbwByAHQAaAB3AGkAbgBkACAARABNAAAAEGYAAAABAAAgAAAAXbdwL1CS4nCjrZbwgc+03Pdu3odc3uT+r7R21SoUSj0AAAAADoAAAAACAAAgAAAAIn6sR0T11KdU0V22uLx/ikibtT0j4NbkmF9Y+ZAX0VgQAAAAQN3eDILsufJOReSfBVWCM0AAAACXyNm+EMc4tzDyOXxAu8QeHckSgOXWg/5RlVNPCxA0HbloKr+20F7I4ZlmycyRFMHFapZbTkzWhKKmCtdAaKkM</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>SQL4-57040 Northwind DM</Id>
+            <Name>SQL4-57040 Northwind DM</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAvJNu1hyoLEisgeKZOiLKdwAAAAAwAAAAUwBRAEwANAAtADUANwAwADQAMAAgAE4AbwByAHQAaAB3AGkAbgBkACAARABNAAAAEGYAAAABAAAgAAAAuDMNp4MSIbWX9G1eRqR1gOcc9vHBP4HoUDTbAkFaSK4AAAAADoAAAAACAAAgAAAARcE1UyFY9QHuc5L/FKMgKInVfOGgvT6VEODFCbVwI58QAAAA+H9oijf4iqxpQXJIBuVhqUAAAABHrmmqFtZ1nYj86DyL+m4F1X05xKfNWMkU1xu1hfZG0E2x0njj89lpB+MsLX+qc4sO9eQhTSv5JWCu9Y/hJjMY</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>CUBO-Northwind</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>
