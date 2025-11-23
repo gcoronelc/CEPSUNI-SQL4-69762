@@ -1551,7 +1551,7 @@ VISIBLE = 1 ,  DISPLAY_FOLDER = 'CALCULOS DEL CUBO'  ; </Text>
       <Name>BDNorthwindDM</Name>
       <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
       <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
-      <ConnectionString>Provider=SQLNCLI11.1;Data Source=EGCC2020;Persist Security Info=True;Password=;User ID=;Initial Catalog=Northwind_DM</ConnectionString>
+      <ConnectionString>Provider=SQLNCLI11.1;Data Source=localhost;Persist Security Info=True;Password=;User ID=;Initial Catalog=Northwind_DM</ConnectionString>
       <ConnectionStringSecurity>PasswordRemoved</ConnectionStringSecurity>
       <ImpersonationInfo>
         <ImpersonationMode>Default</ImpersonationMode>
@@ -1607,46 +1607,46 @@ VISIBLE = 1 ,  DISPLAY_FOLDER = 'CALCULOS DEL CUBO'  ; </Text>
           <xs:element name="VISTA_x0020_Northwind_x0020_DM" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="2a5c5c24-d7bd-4de1-b9d2-5490471f8daa">
             <xs:complexType>
               <xs:choice minOccurs="0" maxOccurs="unbounded">
-                <xs:element name="dbo_VENTAS_FACT" msprop:design-time-name="933e2347-75c7-4e72-aeee-356045aa25c0" msprop:FriendlyName="VENTAS_FACT" msprop:DbSchemaName="dbo" msprop:DbTableName="VENTAS_FACT" msprop:TableType="Table">
+                <xs:element name="dbo_VENTAS_FACT" msprop:DbSchemaName="dbo" msprop:design-time-name="933e2347-75c7-4e72-aeee-356045aa25c0" msprop:FriendlyName="VENTAS_FACT" msprop:TableType="Table" msprop:DbTableName="VENTAS_FACT">
                   <xs:complexType>
                     <xs:sequence>
-                      <xs:element name="VentaKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="eb48a154-014a-43de-9d17-c13317916d70" msprop:DbColumnName="VentaKey" msprop:FriendlyName="VentaKey" type="xs:int" />
-                      <xs:element name="idVenta" msprop:design-time-name="64414c2e-27f2-4ce8-ac59-235ccdcb44e6" msprop:DbColumnName="idVenta" msprop:FriendlyName="idVenta" type="xs:int" />
-                      <xs:element name="idProducto" msprop:design-time-name="5e6212a9-fb89-4e2d-b2e5-faf9b078df1a" msprop:DbColumnName="idProducto" msprop:FriendlyName="idProducto" type="xs:int" />
-                      <xs:element name="idCliente" msprop:design-time-name="9d112b83-9a78-4643-a048-43ad7e7d8241" msprop:DbColumnName="idCliente" msprop:FriendlyName="idCliente">
+                      <xs:element name="VentaKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="VentaKey" msprop:DbColumnName="VentaKey" msprop:design-time-name="eb48a154-014a-43de-9d17-c13317916d70" type="xs:int" />
+                      <xs:element name="idVenta" msprop:FriendlyName="idVenta" msprop:DbColumnName="idVenta" msprop:design-time-name="64414c2e-27f2-4ce8-ac59-235ccdcb44e6" type="xs:int" />
+                      <xs:element name="idProducto" msprop:FriendlyName="idProducto" msprop:DbColumnName="idProducto" msprop:design-time-name="5e6212a9-fb89-4e2d-b2e5-faf9b078df1a" type="xs:int" />
+                      <xs:element name="idCliente" msprop:FriendlyName="idCliente" msprop:DbColumnName="idCliente" msprop:design-time-name="9d112b83-9a78-4643-a048-43ad7e7d8241">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
                             <xs:maxLength value="5" />
                           </xs:restriction>
                         </xs:simpleType>
                       </xs:element>
-                      <xs:element name="idProveedor" msprop:design-time-name="81354871-a58e-47ed-bf8d-972f31da6d69" msprop:DbColumnName="idProveedor" msprop:FriendlyName="idProveedor" type="xs:int" />
-                      <xs:element name="idEmpleado" msprop:design-time-name="be2f50f1-d42e-4b8b-8ad5-bb58ce079e01" msprop:DbColumnName="idEmpleado" msprop:FriendlyName="idEmpleado" type="xs:int" />
-                      <xs:element name="fecha" msprop:design-time-name="2e058dc8-5fd6-44a0-b551-d159578243cd" msprop:DbColumnName="fecha" msprop:FriendlyName="fecha" type="xs:dateTime" />
-                      <xs:element name="unidades" msprop:design-time-name="5771944e-5844-4264-94b8-c977c7154f70" msprop:DbColumnName="unidades" msprop:FriendlyName="unidades" type="xs:int" />
-                      <xs:element name="precioVenta" msprop:design-time-name="afdf002c-d6d4-47dc-b79f-e4eab9723053" msprop:DbColumnName="precioVenta" msprop:FriendlyName="precioVenta" type="xs:decimal" />
-                      <xs:element name="monto" msprop:design-time-name="06bd3f8f-bddf-4978-86ff-1156103ce1ec" msprop:DbColumnName="monto" msprop:FriendlyName="monto" type="xs:decimal" />
+                      <xs:element name="idProveedor" msprop:FriendlyName="idProveedor" msprop:DbColumnName="idProveedor" msprop:design-time-name="81354871-a58e-47ed-bf8d-972f31da6d69" type="xs:int" />
+                      <xs:element name="idEmpleado" msprop:FriendlyName="idEmpleado" msprop:DbColumnName="idEmpleado" msprop:design-time-name="be2f50f1-d42e-4b8b-8ad5-bb58ce079e01" type="xs:int" />
+                      <xs:element name="fecha" msprop:FriendlyName="fecha" msprop:DbColumnName="fecha" msprop:design-time-name="2e058dc8-5fd6-44a0-b551-d159578243cd" type="xs:dateTime" />
+                      <xs:element name="unidades" msprop:FriendlyName="unidades" msprop:DbColumnName="unidades" msprop:design-time-name="5771944e-5844-4264-94b8-c977c7154f70" type="xs:int" />
+                      <xs:element name="precioVenta" msprop:FriendlyName="precioVenta" msprop:DbColumnName="precioVenta" msprop:design-time-name="afdf002c-d6d4-47dc-b79f-e4eab9723053" type="xs:decimal" />
+                      <xs:element name="monto" msprop:FriendlyName="monto" msprop:DbColumnName="monto" msprop:design-time-name="06bd3f8f-bddf-4978-86ff-1156103ce1ec" type="xs:decimal" />
                     </xs:sequence>
                   </xs:complexType>
                 </xs:element>
-                <xs:element name="dbo_CLIENTE" msprop:design-time-name="133dff8a-ac83-42be-8358-03b99443ce68" msprop:FriendlyName="CLIENTE" msprop:DbSchemaName="dbo" msprop:DbTableName="CLIENTE" msprop:TableType="Table">
+                <xs:element name="dbo_CLIENTE" msprop:DbSchemaName="dbo" msprop:design-time-name="133dff8a-ac83-42be-8358-03b99443ce68" msprop:FriendlyName="CLIENTE" msprop:TableType="Table" msprop:DbTableName="CLIENTE">
                   <xs:complexType>
                     <xs:sequence>
-                      <xs:element name="idCliente" msprop:design-time-name="de344cb9-4083-4429-a0f4-31b74415398e" msprop:DbColumnName="idCliente" msprop:FriendlyName="idCliente">
+                      <xs:element name="idCliente" msprop:FriendlyName="idCliente" msprop:DbColumnName="idCliente" msprop:design-time-name="de344cb9-4083-4429-a0f4-31b74415398e">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
                             <xs:maxLength value="5" />
                           </xs:restriction>
                         </xs:simpleType>
                       </xs:element>
-                      <xs:element name="nomCliente" msprop:design-time-name="41a36b9d-9b07-4011-9390-20ad082cffe9" msprop:DbColumnName="nomCliente" msprop:FriendlyName="nomCliente">
+                      <xs:element name="nomCliente" msprop:FriendlyName="nomCliente" msprop:DbColumnName="nomCliente" msprop:design-time-name="41a36b9d-9b07-4011-9390-20ad082cffe9">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
                             <xs:maxLength value="40" />
                           </xs:restriction>
                         </xs:simpleType>
                       </xs:element>
-                      <xs:element name="paisCliente" msprop:design-time-name="42a7ff54-be41-4a68-86c9-6350584b5ed9" msprop:DbColumnName="paisCliente" msprop:FriendlyName="paisCliente" minOccurs="0">
+                      <xs:element name="paisCliente" msprop:FriendlyName="paisCliente" msprop:DbColumnName="paisCliente" msprop:design-time-name="42a7ff54-be41-4a68-86c9-6350584b5ed9" minOccurs="0">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
                             <xs:maxLength value="15" />
@@ -1656,18 +1656,18 @@ VISIBLE = 1 ,  DISPLAY_FOLDER = 'CALCULOS DEL CUBO'  ; </Text>
                     </xs:sequence>
                   </xs:complexType>
                 </xs:element>
-                <xs:element name="dbo_PROVEEDOR" msprop:design-time-name="22135331-15cb-485d-8f98-0f8f1978f5cb" msprop:FriendlyName="PROVEEDOR" msprop:DbSchemaName="dbo" msprop:DbTableName="PROVEEDOR" msprop:TableType="Table">
+                <xs:element name="dbo_PROVEEDOR" msprop:DbSchemaName="dbo" msprop:design-time-name="22135331-15cb-485d-8f98-0f8f1978f5cb" msprop:FriendlyName="PROVEEDOR" msprop:TableType="Table" msprop:DbTableName="PROVEEDOR">
                   <xs:complexType>
                     <xs:sequence>
-                      <xs:element name="idProveedor" msprop:design-time-name="a89f17ad-6809-409b-99f0-82236ba67691" msprop:DbColumnName="idProveedor" msprop:FriendlyName="idProveedor" type="xs:int" />
-                      <xs:element name="nomProveedor" msprop:design-time-name="70896352-6e6a-400d-8c01-46383a444f9d" msprop:DbColumnName="nomProveedor" msprop:FriendlyName="nomProveedor">
+                      <xs:element name="idProveedor" msprop:FriendlyName="idProveedor" msprop:DbColumnName="idProveedor" msprop:design-time-name="a89f17ad-6809-409b-99f0-82236ba67691" type="xs:int" />
+                      <xs:element name="nomProveedor" msprop:FriendlyName="nomProveedor" msprop:DbColumnName="nomProveedor" msprop:design-time-name="70896352-6e6a-400d-8c01-46383a444f9d">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
                             <xs:maxLength value="40" />
                           </xs:restriction>
                         </xs:simpleType>
                       </xs:element>
-                      <xs:element name="paisProveedor" msprop:design-time-name="54491f86-f4c1-4448-9d15-a10f955fde76" msprop:DbColumnName="paisProveedor" msprop:FriendlyName="paisProveedor" minOccurs="0">
+                      <xs:element name="paisProveedor" msprop:FriendlyName="paisProveedor" msprop:DbColumnName="paisProveedor" msprop:design-time-name="54491f86-f4c1-4448-9d15-a10f955fde76" minOccurs="0">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
                             <xs:maxLength value="15" />
@@ -1677,19 +1677,19 @@ VISIBLE = 1 ,  DISPLAY_FOLDER = 'CALCULOS DEL CUBO'  ; </Text>
                     </xs:sequence>
                   </xs:complexType>
                 </xs:element>
-                <xs:element name="dbo_PRODUCTO" msprop:design-time-name="4369493e-60f9-44a7-8cb2-c55c4fcfcc38" msprop:FriendlyName="PRODUCTO" msprop:DbSchemaName="dbo" msprop:DbTableName="PRODUCTO" msprop:TableType="Table">
+                <xs:element name="dbo_PRODUCTO" msprop:DbSchemaName="dbo" msprop:design-time-name="4369493e-60f9-44a7-8cb2-c55c4fcfcc38" msprop:FriendlyName="PRODUCTO" msprop:TableType="Table" msprop:DbTableName="PRODUCTO">
                   <xs:complexType>
                     <xs:sequence>
-                      <xs:element name="idProducto" msprop:design-time-name="74405ffa-6516-4c06-b7db-11a33c7ce214" msprop:DbColumnName="idProducto" msprop:FriendlyName="idProducto" type="xs:int" />
-                      <xs:element name="nomProducto" msprop:design-time-name="6fc06637-572a-4c36-9257-b5dd332139e0" msprop:DbColumnName="nomProducto" msprop:FriendlyName="nomProducto">
+                      <xs:element name="idProducto" msprop:FriendlyName="idProducto" msprop:DbColumnName="idProducto" msprop:design-time-name="74405ffa-6516-4c06-b7db-11a33c7ce214" type="xs:int" />
+                      <xs:element name="nomProducto" msprop:FriendlyName="nomProducto" msprop:DbColumnName="nomProducto" msprop:design-time-name="6fc06637-572a-4c36-9257-b5dd332139e0">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
                             <xs:maxLength value="40" />
                           </xs:restriction>
                         </xs:simpleType>
                       </xs:element>
-                      <xs:element name="idCategoria" msprop:design-time-name="63848a3f-adde-46ee-963e-b7626fc4f69e" msprop:DbColumnName="idCategoria" msprop:FriendlyName="idCategoria" type="xs:int" />
-                      <xs:element name="nomCategoria" msprop:design-time-name="e972d0fb-0b18-4af9-9631-cad6c686b275" msprop:DbColumnName="nomCategoria" msprop:FriendlyName="nomCategoria">
+                      <xs:element name="idCategoria" msprop:FriendlyName="idCategoria" msprop:DbColumnName="idCategoria" msprop:design-time-name="63848a3f-adde-46ee-963e-b7626fc4f69e" type="xs:int" />
+                      <xs:element name="nomCategoria" msprop:FriendlyName="nomCategoria" msprop:DbColumnName="nomCategoria" msprop:design-time-name="e972d0fb-0b18-4af9-9631-cad6c686b275">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
                             <xs:maxLength value="15" />
@@ -1699,29 +1699,29 @@ VISIBLE = 1 ,  DISPLAY_FOLDER = 'CALCULOS DEL CUBO'  ; </Text>
                     </xs:sequence>
                   </xs:complexType>
                 </xs:element>
-                <xs:element name="dbo_TIEMPO" msprop:design-time-name="22cc248e-c6a2-497e-9580-c9d211943630" msprop:FriendlyName="TIEMPO" msprop:DbSchemaName="dbo" msprop:DbTableName="TIEMPO" msprop:TableType="Table">
+                <xs:element name="dbo_TIEMPO" msprop:DbSchemaName="dbo" msprop:design-time-name="22cc248e-c6a2-497e-9580-c9d211943630" msprop:FriendlyName="TIEMPO" msprop:TableType="Table" msprop:DbTableName="TIEMPO">
                   <xs:complexType>
                     <xs:sequence>
-                      <xs:element name="fecha" msprop:design-time-name="3ae8245f-9d52-41a6-a924-98018dfbb137" msprop:DbColumnName="fecha" msprop:FriendlyName="fecha" type="xs:dateTime" />
-                      <xs:element name="año" msprop:design-time-name="b992ac94-4e80-4ce2-a184-b129a0ec778d" msprop:DbColumnName="año" msprop:FriendlyName="año" type="xs:short" />
-                      <xs:element name="semestre" msprop:design-time-name="8a35415b-b54b-48d4-9e67-c1aa4eb823ec" msprop:DbColumnName="semestre" msprop:FriendlyName="semestre" type="xs:short" />
-                      <xs:element name="trimestre" msprop:design-time-name="511e3ea1-5cb4-4483-abad-d4e0d153282f" msprop:DbColumnName="trimestre" msprop:FriendlyName="trimestre" type="xs:short" />
-                      <xs:element name="mes" msprop:design-time-name="de0f8e16-c220-40d8-a73f-2491190d097e" msprop:DbColumnName="mes" msprop:FriendlyName="mes" type="xs:short" />
+                      <xs:element name="fecha" msprop:FriendlyName="fecha" msprop:DbColumnName="fecha" msprop:design-time-name="3ae8245f-9d52-41a6-a924-98018dfbb137" type="xs:dateTime" />
+                      <xs:element name="año" msprop:FriendlyName="año" msprop:DbColumnName="año" msprop:design-time-name="b992ac94-4e80-4ce2-a184-b129a0ec778d" type="xs:short" />
+                      <xs:element name="semestre" msprop:FriendlyName="semestre" msprop:DbColumnName="semestre" msprop:design-time-name="8a35415b-b54b-48d4-9e67-c1aa4eb823ec" type="xs:short" />
+                      <xs:element name="trimestre" msprop:FriendlyName="trimestre" msprop:DbColumnName="trimestre" msprop:design-time-name="511e3ea1-5cb4-4483-abad-d4e0d153282f" type="xs:short" />
+                      <xs:element name="mes" msprop:FriendlyName="mes" msprop:DbColumnName="mes" msprop:design-time-name="de0f8e16-c220-40d8-a73f-2491190d097e" type="xs:short" />
                     </xs:sequence>
                   </xs:complexType>
                 </xs:element>
-                <xs:element name="dbo_EMPLEADO" msprop:design-time-name="a900487d-c3a7-4021-8796-99f583d66828" msprop:FriendlyName="EMPLEADO" msprop:DbSchemaName="dbo" msprop:DbTableName="EMPLEADO" msprop:TableType="Table">
+                <xs:element name="dbo_EMPLEADO" msprop:DbSchemaName="dbo" msprop:design-time-name="a900487d-c3a7-4021-8796-99f583d66828" msprop:FriendlyName="EMPLEADO" msprop:TableType="Table" msprop:DbTableName="EMPLEADO">
                   <xs:complexType>
                     <xs:sequence>
-                      <xs:element name="idEmpleado" msprop:design-time-name="71631ce2-149b-4103-a4b2-dac3dafb2e1c" msprop:DbColumnName="idEmpleado" msprop:FriendlyName="idEmpleado" type="xs:int" />
-                      <xs:element name="nomEmpleado" msprop:design-time-name="6c91776f-7e9c-4fba-ab10-b9e2fe1c6c8f" msprop:DbColumnName="nomEmpleado" msprop:FriendlyName="nomEmpleado">
+                      <xs:element name="idEmpleado" msprop:FriendlyName="idEmpleado" msprop:DbColumnName="idEmpleado" msprop:design-time-name="71631ce2-149b-4103-a4b2-dac3dafb2e1c" type="xs:int" />
+                      <xs:element name="nomEmpleado" msprop:FriendlyName="nomEmpleado" msprop:DbColumnName="nomEmpleado" msprop:design-time-name="6c91776f-7e9c-4fba-ab10-b9e2fe1c6c8f">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
                             <xs:maxLength value="40" />
                           </xs:restriction>
                         </xs:simpleType>
                       </xs:element>
-                      <xs:element name="edadVenta" msprop:design-time-name="da19a60e-bd14-4335-b207-13178d7f0f26" msprop:DbColumnName="edadVenta" msprop:FriendlyName="edadVenta" type="xs:short" minOccurs="0" />
+                      <xs:element name="edadVenta" msprop:FriendlyName="edadVenta" msprop:DbColumnName="edadVenta" msprop:design-time-name="da19a60e-bd14-4335-b207-13178d7f0f26" type="xs:short" minOccurs="0" />
                     </xs:sequence>
                   </xs:complexType>
                 </xs:element>

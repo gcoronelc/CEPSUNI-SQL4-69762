@@ -5,25 +5,24 @@
       <Options>
         <UserIDs>
           <ConfigurationSetting>
-            <Id>SQL4-57040 Northwind DM</Id>
-            <Name>SQL4-57040 Northwind DM</Name>
-            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApj8ViBJwHEm6f2Ok0MmsMQAAAAAwAAAAUwBRAEwANAAtADUANwAwADQAMAAgAE4AbwByAHQAaAB3AGkAbgBkACAARABNAAAAEGYAAAABAAAgAAAAjbEsA/otCnUT9eX8wRQOBGhh76sszcOmKQBr1sM0+eAAAAAADoAAAAACAAAgAAAAGU3A9hI7kGlhgrcExrEZFUYTKXoPhoyt6Ynql4L+VVIQAAAAF3SqS9DoX/I9i4emxQLtuUAAAABYobG7tk4OxUPy4ENwBnjJZuHfUgZaer4gcurttUOkoUIBCveR5V6WooDnN/0XjfhHV0fa2gJrm4CfEpr1NRDG</Value>
+            <Id>NorthwindDM</Id>
+            <Name>NorthwindDM</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApj8ViBJwHEm6f2Ok0MmsMQAAAAAYAAAATgBvAHIAdABoAHcAaQBuAGQARABNAAAAEGYAAAABAAAgAAAA93BKXRiZ2r2CYignVYOuUu0Gz0Umar4wz2RCu6DJRhYAAAAADoAAAAACAAAgAAAARDCobq/MNMkgblh9soFHl8azd3k2kGRE5EK0zWaLy+MQAAAAMaO2R1FaLOSU5BmKEIbSIEAAAADcTTqWWcQ8kq1V8edHpI9UxvL4Yv+0dAagIfuih+TyTJpkIsbyuE0rLMcoVO8uKTHGKuBwqAQad3Qd8O9/CNJe</Value>
           </ConfigurationSetting>
         </UserIDs>
         <UserPasswords>
           <ConfigurationSetting>
-            <Id>SQL4-57040 Northwind DM</Id>
-            <Name>SQL4-57040 Northwind DM</Name>
-            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApj8ViBJwHEm6f2Ok0MmsMQAAAAAwAAAAUwBRAEwANAAtADUANwAwADQAMAAgAE4AbwByAHQAaAB3AGkAbgBkACAARABNAAAAEGYAAAABAAAgAAAAUtloG9p7pcDOYr2EjWtBDGqzwDQ6TTmZcb76iGmG3AMAAAAADoAAAAACAAAgAAAAqqrZDsg7xzI8uRuMx+Chr3twd3Cb56y6OP6BAvBRgr0QAAAAo9gDM2PxrdSGWaU0t2YYxEAAAABJ3Fo49yRp/ecw3RyIUoR2tVzRJ59BB0IBj7RlBfKdz9C/s3THebfZekZ2Iddgp0yrwpPVSnIdOu2iBTho/FiJ</Value>
+            <Id>NorthwindDM</Id>
+            <Name>NorthwindDM</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApj8ViBJwHEm6f2Ok0MmsMQAAAAAYAAAATgBvAHIAdABoAHcAaQBuAGQARABNAAAAEGYAAAABAAAgAAAAc63YumkEAhJGrY+DiYZ1Ym9280I25nF2mouSWA6olkEAAAAADoAAAAACAAAgAAAAGn5+TdJ89qVDjVVd7D8FOPkC+n8UgdYmTaKRS48lcQUQAAAAC92a3ZeK/iH8xFKobZ8Tz0AAAABxyuLmneYAOSGN+gbfucAgnZOPPD7ni5ih1M3ZhDrDGqYknz9L2ghCLTvnwi7R6mtfxQAk++Huvvf/X3LIDBS1</Value>
           </ConfigurationSetting>
         </UserPasswords>
         <TargetServer>localhost</TargetServer>
-        <TargetDatabase>CUBO-Northwind</TargetDatabase>
+        <TargetDatabase>ProyectoNWD69762</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
           <ObjectType>Current</ObjectType>
         </StartObject>
-        <DeploymentMode>DeployAll</DeploymentMode>
       </Options>
     </Configuration>
   </Configurations>

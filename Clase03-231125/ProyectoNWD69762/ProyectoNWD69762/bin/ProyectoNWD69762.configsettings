@@ -2,8 +2,8 @@
   <Database>
     <DataSources>
       <DataSource>
-        <ID>SQL4-57040 Northwind DM</ID>
-        <ConnectionString>Provider=SQLNCLI11.1;Data Source=localhost;Persist Security Info=True;Password=;User ID=;Initial Catalog=Northwind_DM</ConnectionString>
+        <ID>NorthwindDM</ID>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=DESKTOP-GC01;Persist Security Info=True;Password=;User ID=;Initial Catalog=Northwind_DM</ConnectionString>
         <ImpersonationInfo>
           <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
           <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
@@ -12,36 +12,21 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>DIM EMPLEADO</ID>
+        <ID>DIM_EMPLEADO</ID>
       </Dimension>
       <Dimension>
-        <ID>DIM CLIENTE</ID>
+        <ID>DIM_CLIENTE</ID>
       </Dimension>
       <Dimension>
-        <ID>DIM PROVEEDOR</ID>
+        <ID>DIM_PROVEEDOR</ID>
       </Dimension>
       <Dimension>
-        <ID>DIM PRODUCTO</ID>
+        <ID>DIM_PRODUCTO</ID>
       </Dimension>
       <Dimension>
-        <ID>DIM TIEMPO</ID>
+        <ID>DIM_TIEMPO</ID>
       </Dimension>
     </Dimensions>
-    <Cubes>
-      <Cube>
-        <ID>CUBO-NW-57040</ID>
-        <MeasureGroups>
-          <MeasureGroup>
-            <ID>VENTAS FACT</ID>
-            <Partitions>
-              <Partition>
-                <ID>VENTAS FACT</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-        </MeasureGroups>
-      </Cube>
-    </Cubes>
     <DataSourceImpersonationInfo>
       <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
       <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
