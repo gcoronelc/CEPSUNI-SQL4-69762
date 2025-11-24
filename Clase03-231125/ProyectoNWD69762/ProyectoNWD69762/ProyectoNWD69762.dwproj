@@ -6,6 +6,18 @@
     <Name>ProyectoNWD69762.database</Name>
     <FullPath>ProyectoNWD69762.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>CuboNorthwindDM.cube</Name>
+      <FullPath>CuboNorthwindDM.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>CuboNorthwindDM.partitions</Name>
+          <FullPath>CuboNorthwindDM.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>DIM_EMPLEADO.dim</Name>

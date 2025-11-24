@@ -54,16 +54,23 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>B8A1/89VAykaa/oXbmyCR5zYFAc=23/11/2025 18:17:5623/11/2025 18:10:03</TimeStamp>
+        <TimeStamp>dOgzgFUK/froWGKRsAq/IaDTXAo=23/11/2025 19:34:3223/11/2025 18:10:03</TimeStamp>
         <ID>
           <String>DIM_PRODUCTO</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>L1UEfOQT+ncB6wyIPpzYtlANX5E=23/11/2025 18:49:4223/11/2025 18:29:50</TimeStamp>
+        <TimeStamp>MCx64QN+S4xMmt4amQckXuozdgM=23/11/2025 20:08:0723/11/2025 18:29:50</TimeStamp>
         <ID>
           <String>DIM_TIEMPO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>VpBu7uza8ox6tEaEqwaNyDLZe6s=23/11/2025 19:55:0423/11/2025 19:22:05hKsbZzbvwK3KI6W+Dq2HhM3kpOk=23/11/2025 19:55:0423/11/2025 19:22:05</TimeStamp>
+        <ID>
+          <String>CuboNorthwindDM</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
@@ -78,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2025-11-23T23:51:16.69Z</LastDeployed>
+  <LastDeployed>2025-11-24T01:08:25.783333Z</LastDeployed>
 </DeploymentSnapshot>
