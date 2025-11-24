@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{D109D4CA-FD51-07DC-DF93-D0136E0900E3}|ProyectoNWD69762\\ProyectoNWD69762.dwproj|solutionrelative:ProyectoNWD69762\\CuboNorthwindDM.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D109D4CA-FD51-07DC-DF93-D0136E0900E3}|ProyectoNWD69762\\ProyectoNWD69762.dwproj|D:\\GITHUB\\CEPSUNI\\CEPSUNI-SQL4-69762\\Clase03-231125\\ProyectoNWD69762\\ProyectoNWD69762\\DIM_TIEMPO.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{D109D4CA-FD51-07DC-DF93-D0136E0900E3}|ProyectoNWD69762\\ProyectoNWD69762.dwproj|solutionrelative:ProyectoNWD69762\\DIM_TIEMPO.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D109D4CA-FD51-07DC-DF93-D0136E0900E3}|ProyectoNWD69762\\ProyectoNWD69762.dwproj|D:\\GITHUB\\CEPSUNI\\CEPSUNI-SQL4-69762\\Clase03-231125\\ProyectoNWD69762\\ProyectoNWD69762\\DIM_PRODUCTO.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
       "RelativeMoniker": "D:0:0:{D109D4CA-FD51-07DC-DF93-D0136E0900E3}|ProyectoNWD69762\\ProyectoNWD69762.dwproj|solutionrelative:ProyectoNWD69762\\DIM_PRODUCTO.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     }
@@ -18,8 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DIM_TIEMPO.dim [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\GITHUB\\CEPSUNI\\CEPSUNI-SQL4-69762\\Clase03-231125\\ProyectoNWD69762\\ProyectoNWD69762\\DIM_TIEMPO.dim",
+              "RelativeDocumentMoniker": "ProyectoNWD69762\\DIM_TIEMPO.dim",
+              "ToolTip": "D:\\GITHUB\\CEPSUNI\\CEPSUNI-SQL4-69762\\Clase03-231125\\ProyectoNWD69762\\ProyectoNWD69762\\DIM_TIEMPO.dim [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoNWD69762\\DIM_TIEMPO.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-24T01:37:32.973Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -34,15 +50,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DIM_PRODUCTO.dim [Dise\u00F1o]",
               "DocumentMoniker": "D:\\GITHUB\\CEPSUNI\\CEPSUNI-SQL4-69762\\Clase03-231125\\ProyectoNWD69762\\ProyectoNWD69762\\DIM_PRODUCTO.dim",
               "RelativeDocumentMoniker": "ProyectoNWD69762\\DIM_PRODUCTO.dim",
               "ToolTip": "D:\\GITHUB\\CEPSUNI\\CEPSUNI-SQL4-69762\\Clase03-231125\\ProyectoNWD69762\\ProyectoNWD69762\\DIM_PRODUCTO.dim [Dise\u00F1o]",
               "RelativeToolTip": "ProyectoNWD69762\\DIM_PRODUCTO.dim [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-24T00:28:52.321Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-11-24T00:28:52.321Z"
             }
           ]
         }

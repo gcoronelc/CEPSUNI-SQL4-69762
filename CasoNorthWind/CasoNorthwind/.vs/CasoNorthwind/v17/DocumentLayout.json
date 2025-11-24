@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\GITHUB\\CEPSUNI\\CEPSUNI-SQL4-69762\\CasoNorthWind\\CasoNorthwind\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{00BC7419-13F1-4D3C-AE17-3960700CF640}|CUBO-Northwind\\CUBO-Northwind.dwproj|D:\\GITHUB\\CEPSUNI\\CEPSUNI-SQL4-69762\\CasoNorthWind\\CasoNorthwind\\CUBO-Northwind\\DIM TIEMPO.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{00BC7419-13F1-4D3C-AE17-3960700CF640}|CUBO-Northwind\\CUBO-Northwind.dwproj|solutionrelative:CUBO-Northwind\\DIM TIEMPO.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BC7419-13F1-4D3C-AE17-3960700CF640}|CUBO-Northwind\\CUBO-Northwind.dwproj|D:\\GITHUB\\CEPSUNI\\CEPSUNI-SQL4-69762\\CasoNorthWind\\CasoNorthwind\\CUBO-Northwind\\CUBO-NW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{00BC7419-13F1-4D3C-AE17-3960700CF640}|CUBO-Northwind\\CUBO-Northwind.dwproj|solutionrelative:CUBO-Northwind\\CUBO-NW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{00BC7419-13F1-4D3C-AE17-3960700CF640}|CUBO-Northwind\\CUBO-Northwind.dwproj|D:\\GITHUB\\CEPSUNI\\CEPSUNI-SQL4-69762\\CasoNorthWind\\CasoNorthwind\\CUBO-Northwind\\DIM EMPLEADO.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
       "RelativeMoniker": "D:0:0:{00BC7419-13F1-4D3C-AE17-3960700CF640}|CUBO-Northwind\\CUBO-Northwind.dwproj|solutionrelative:CUBO-Northwind\\DIM EMPLEADO.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     }
@@ -19,6 +27,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DIM TIEMPO.dim [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\GITHUB\\CEPSUNI\\CEPSUNI-SQL4-69762\\CasoNorthWind\\CasoNorthwind\\CUBO-Northwind\\DIM TIEMPO.dim",
+              "RelativeDocumentMoniker": "CUBO-Northwind\\DIM TIEMPO.dim",
+              "ToolTip": "D:\\GITHUB\\CEPSUNI\\CEPSUNI-SQL4-69762\\CasoNorthWind\\CasoNorthwind\\CUBO-Northwind\\DIM TIEMPO.dim [Dise\u00F1o]",
+              "RelativeToolTip": "CUBO-Northwind\\DIM TIEMPO.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-24T01:35:23.79Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CUBO-NW.cube [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\GITHUB\\CEPSUNI\\CEPSUNI-SQL4-69762\\CasoNorthWind\\CasoNorthwind\\CUBO-Northwind\\CUBO-NW.cube",
+              "RelativeDocumentMoniker": "CUBO-Northwind\\CUBO-NW.cube",
+              "ToolTip": "D:\\GITHUB\\CEPSUNI\\CEPSUNI-SQL4-69762\\CasoNorthWind\\CasoNorthwind\\CUBO-Northwind\\CUBO-NW.cube [Dise\u00F1o]",
+              "RelativeToolTip": "CUBO-Northwind\\CUBO-NW.cube [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-24T01:23:04.073Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DIM EMPLEADO.dim [Dise\u00F1o]",
               "DocumentMoniker": "D:\\GITHUB\\CEPSUNI\\CEPSUNI-SQL4-69762\\CasoNorthWind\\CasoNorthwind\\CUBO-Northwind\\DIM EMPLEADO.dim",
               "RelativeDocumentMoniker": "CUBO-Northwind\\DIM EMPLEADO.dim",
